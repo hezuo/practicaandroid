@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".BaseActivity">
+    
+    <Button
+        android:id="@+id/btInicio"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:text="Inicio Dia"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btVisita"
+        android:layout_below="@+id/btInicio"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Visita Cliente"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btFin"
+        android:layout_below="@+id/btVisita"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Fin Dia"
+        android:layout_centerHorizontal="true"/>
+    
+
+</RelativeLayout>
