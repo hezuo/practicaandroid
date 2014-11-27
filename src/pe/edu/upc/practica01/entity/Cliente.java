@@ -7,8 +7,23 @@ public class Cliente implements Serializable {
     private static final long serialVersionUID = 1L;
     private int id;
     private String name;
+    private String lastName;
+    
+    public Cliente(){    	
+    }
+    public Cliente(int id, String name, String lastName){
+    	this.id = id;
+    	this.name = name;
+    	this.lastName = lastName;
+    }
 
-    public int getId() {
+    public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public int getId() {
         return id;
     }
     public void setId(int id) {

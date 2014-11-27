@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
+import pe.edu.upc.practica01.controller.MainController;
 import pe.edu.upc.practica01.entity.Cliente;
 
 import java.util.ArrayList;
@@ -17,19 +18,13 @@ public class VisitaActivity extends GeneralActivity {
 
     private ListView listView;
     private ItemListAdapter adapter;
+    private List<Cliente> listClientes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visita);
-
-        Cliente cliente = new Cliente();
-        cliente.setId(1);
-        cliente.setName("Cesar Pillihuaman");
-
-
-        List<Cliente> listClientes = new ArrayList<Cliente>();
-        listClientes.add(cliente);
+        listClientes = MainController.getInstance().lstClientes;
 
         adapter = new ItemListAdapter(this, listClientes);
         listView = (ListView) findViewById(R.id.list_view);
@@ -38,8 +33,7 @@ public class VisitaActivity extends GeneralActivity {
         listView.setOnItemClickListener(new OnItemClickListener() {
 
             @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
 
                 try {
 
