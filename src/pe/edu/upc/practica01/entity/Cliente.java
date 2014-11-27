@@ -8,13 +8,21 @@ public class Cliente implements Serializable {
     private int id;
     private String name;
     private String lastName;
+    private String address;
     
-    public Cliente(){    	
+    public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public Cliente(){    	
     }
-    public Cliente(int id, String name, String lastName){
+    public Cliente(int id, String name, String lastName, String address){
     	this.id = id;
     	this.name = name;
     	this.lastName = lastName;
+    	this.address = address;
     }
 
     public String getLastName() {

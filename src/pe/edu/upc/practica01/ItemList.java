@@ -9,7 +9,7 @@ import pe.edu.upc.practica01.entity.Cliente;
 
 public class ItemList extends LinearLayout {
 
-    private TextView lblName;
+    private TextView lblName,lblAddress;
     private Cliente cliente;
 
     public ItemList(Context context, Cliente cliente) {
@@ -26,7 +26,9 @@ public class ItemList extends LinearLayout {
         li.inflate(R.layout.activity_item, this, true);
 
         lblName = (TextView) findViewById(R.id.lblName);
-        lblName.setText( cliente.getName() );
+        lblAddress = (TextView) findViewById(R.id.lblAddress);
+        lblName.setText( cliente.getName() + " " + cliente.getLastName() );
+        lblAddress.setText(cliente.getAddress());
 
     }
 }
