@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import pe.edu.upc.practica01.application.MyApplication;
 
@@ -43,6 +44,10 @@ public class BaseActivity extends GeneralActivity {
                 try {
 
                     app.setLoggedIn(true);
+                    Toast.makeText(getApplicationContext(), "Ha iniciado el dia. ahora sera redirido al login", Toast.LENGTH_SHORT).show();
+
+                    Intent i1 = new Intent(BaseActivity.this, MainActivity.class);
+                    startActivity(i1);
 
                 } catch (Exception e) {
                     Log.e(getPackageName(), e.getMessage());

@@ -17,7 +17,6 @@ public class MainActivity extends GeneralActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //textview
         txtName = (TextView) findViewById(R.id.txtName);
         txtPassword = (TextView) findViewById(R.id.txtPassword);
 
