@@ -9,6 +9,21 @@ public class Cliente implements Serializable {
     private String name;
     private String lastName;
     private String address;
+    public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getField() {
+		return field;
+	}
+	public void setField(String field) {
+		this.field = field;
+	}
+
+	private String phone;
+    private String field;
     
     public String getAddress() {
 		return address;
@@ -18,7 +33,19 @@ public class Cliente implements Serializable {
 	}
 	public Cliente(){    	
     }
-    public Cliente(int id, String name, String lastName, String address){
+	
+	
+    public Cliente(int id, String name, String lastName, String address,
+			String phone, String field) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.lastName = lastName;
+		this.address = address;
+		this.phone = phone;
+		this.field = field;
+	}
+	public Cliente(int id, String name, String lastName, String address){
     	this.id = id;
     	this.name = name;
     	this.lastName = lastName;

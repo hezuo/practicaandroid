@@ -1121,6 +1121,10 @@ containing a value of this type.
         public static final int image=0x7f050027;
         public static final int inputSearch=0x7f05004d;
         public static final int lblAddress=0x7f050046;
+        public static final int lblClienteAddress=0x7f050042;
+        public static final int lblClienteField=0x7f050044;
+        public static final int lblClienteName=0x7f050041;
+        public static final int lblClientePhone=0x7f050043;
         public static final int lblLogin=0x7f050048;
         public static final int lblName=0x7f050045;
         public static final int listMode=0x7f050001;
@@ -1152,10 +1156,6 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
-        public static final int textView1=0x7f050042;
-        public static final int textView2=0x7f050041;
-        public static final int textView3=0x7f050043;
-        public static final int textView4=0x7f050044;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int txtName=0x7f050049;
@@ -2658,7 +2658,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x0101052f
+            0x0101012f, 0x01010130, 0x01010131, 0x01010438
         };
         /**
           <p>

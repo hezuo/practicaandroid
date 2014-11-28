@@ -61,26 +61,7 @@ public class VisitaActivity extends GeneralActivity implements OnItemClickListen
                 // TODO Auto-generated method stub                          
             }
         });
-        
-/*
-        listView.setOnItemClickListener(new OnItemClickListener() {
-
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
-
-                try {
-
-                    Intent i1 = new Intent(VisitaActivity.this, ClienteActivity.class);
-                    i1.putExtra("selectedChapter", position);
-                    startActivity(i1);
-
-                } catch (Exception e) {
-                    Log.e(getPackageName(), e.getMessage());
-                }
-
-            }
-        });
-*/
+    
     }
 
 	@Override
@@ -90,7 +71,7 @@ public class VisitaActivity extends GeneralActivity implements OnItemClickListen
 		
 		Toast.makeText(this, tel, Toast.LENGTH_SHORT).show();
 		
-		 Intent i1 = new Intent(VisitaActivity.this, ClienteActivity.class);
+		 Intent i1 = new Intent(VisitaActivity.this, ClienteActivity.class);		 
          i1.putExtra("cliente", bp);
          startActivity(i1);
 		
