@@ -2,11 +2,11 @@ package pe.edu.upc.practica01;
 
 import pe.edu.upc.practica01.entity.Cliente;
 import android.os.Bundle;
-import android.widget.EditText;
+import android.widget.TextView;
 
 public class ClienteActivity extends GeneralActivity {
 
-	EditText txtNombre, txtAddress, txtPhone, txtField;
+	TextView txtNombre, txtAddress, txtPhone, txtField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,10 +14,10 @@ public class ClienteActivity extends GeneralActivity {
         setContentView(R.layout.activity_cliente);     
         
         Cliente cliente = (Cliente) getIntent().getSerializableExtra("cliente");
-        txtNombre = (EditText) findViewById(R.id.lblClienteName);
-        txtAddress = (EditText) findViewById(R.id.lblClienteAddress);
-        txtPhone = (EditText) findViewById(R.id.lblClientePhone);
-        txtField = (EditText) findViewById(R.id.lblClienteField);
+        txtNombre = (TextView) findViewById(R.id.lblClienteName);
+        txtAddress = (TextView) findViewById(R.id.lblClienteAddress);
+        txtPhone = (TextView) findViewById(R.id.lblClientePhone);
+        txtField = (TextView) findViewById(R.id.lblClienteField);
         
         txtNombre.setText(cliente.getNombreCompleto());
         txtAddress.setText(cliente.getAddress());
