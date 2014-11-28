@@ -8,5 +8,8 @@
     <string name="lbl_password">Password</string>
     <string name="lbl_boton_login">Ingresar</string>
     <string name="lbl_inicio_dia">Iniciar Dia</string>
-    <string name="action_login">Login</string>
+    <string name="action_login">Login</string>     
+    <string name="txtdireccion">direccion</string>
+    <string name="txtnombre">nombre</string>
+    <string name="string_empty"></string>
 </resources>

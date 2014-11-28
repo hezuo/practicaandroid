@@ -1100,7 +1100,7 @@ containing a value of this type.
         public static final int beginning=0x7f050011;
         public static final int btFin=0x7f05003e;
         public static final int btInicio=0x7f05003c;
-        public static final int btLogin=0x7f05004c;
+        public static final int btLogin=0x7f05004b;
         public static final int btVisita=0x7f05003d;
         public static final int button1=0x7f050040;
         public static final int button2=0x7f05003f;
@@ -1119,14 +1119,14 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
-        public static final int inputSearch=0x7f050047;
+        public static final int inputSearch=0x7f05004c;
         public static final int lblAddress=0x7f050046;
-        public static final int lblLogin=0x7f050049;
+        public static final int lblLogin=0x7f050048;
         public static final int lblName=0x7f050045;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int list_view=0x7f05004d;
-        public static final int listclientes=0x7f050048;
+        public static final int listclientes=0x7f050047;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
@@ -1157,8 +1157,8 @@ containing a value of this type.
         public static final int textView4=0x7f050044;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
-        public static final int txtName=0x7f05004a;
-        public static final int txtPassword=0x7f05004b;
+        public static final int txtName=0x7f050049;
+        public static final int txtPassword=0x7f05004a;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1274,6 +1274,9 @@ containing a value of this type.
         public static final int lbl_inicio_dia=0x7f0a0013;
         public static final int lbl_password=0x7f0a0011;
         public static final int lbl_usuario=0x7f0a0010;
+        public static final int string_empty=0x7f0a0017;
+        public static final int txtdireccion=0x7f0a0015;
+        public static final int txtnombre=0x7f0a0016;
     }
     public static final class style {
         /** 
@@ -2652,7 +2655,7 @@ containing a value of this type.
          */
         public static final int[] MenuView = {
             0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e,
-            0x0101012f, 0x01010130, 0x01010131, 0x01010438
+            0x0101012f, 0x01010130, 0x01010131, 0x0101052f
         };
         /**
           <p>

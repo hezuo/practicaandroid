@@ -255,7 +255,7 @@ int id always 0x7f05000b
 int id beginning 0x7f050011
 int id btFin 0x7f05003e
 int id btInicio 0x7f05003c
-int id btLogin 0x7f05004c
+int id btLogin 0x7f05004b
 int id btVisita 0x7f05003d
 int id button1 0x7f050040
 int id button2 0x7f05003f
@@ -274,14 +274,14 @@ int id homeAsUp 0x7f050005
 int id icon 0x7f05002a
 int id ifRoom 0x7f05000a
 int id image 0x7f050027
-int id inputSearch 0x7f050047
+int id inputSearch 0x7f05004c
 int id lblAddress 0x7f050046
-int id lblLogin 0x7f050049
+int id lblLogin 0x7f050048
 int id lblName 0x7f050045
 int id listMode 0x7f050001
 int id list_item 0x7f050029
 int id list_view 0x7f05004d
-int id listclientes 0x7f050048
+int id listclientes 0x7f050047
 int id middle 0x7f050012
 int id never 0x7f050009
 int id none 0x7f050010
@@ -312,8 +312,8 @@ int id textView3 0x7f050043
 int id textView4 0x7f050044
 int id title 0x7f05002b
 int id top_action_bar 0x7f050020
-int id txtName 0x7f05004a
-int id txtPassword 0x7f05004b
+int id txtName 0x7f050049
+int id txtPassword 0x7f05004a
 int id up 0x7f050021
 int id useLogo 0x7f050003
 int id withText 0x7f05000c
@@ -372,6 +372,9 @@ int string lbl_boton_login 0x7f0a0012
 int string lbl_inicio_dia 0x7f0a0013
 int string lbl_password 0x7f0a0011
 int string lbl_usuario 0x7f0a0010
+int string string_empty 0x7f0a0017
+int string txtdireccion 0x7f0a0015
+int string txtnombre 0x7f0a0016
 int style AppBaseTheme 0x7f0b008b
 int style AppTheme 0x7f0b008c
 int style TextAppearance_AppCompat_Base_CompactMenu_Dialog 0x7f0b0063
@@ -586,7 +589,7 @@ int styleable MenuItem_android_title 7
 int styleable MenuItem_android_titleCondensed 8
 int styleable MenuItem_android_visible 4
 int styleable MenuItem_showAsAction 13
-int[] styleable MenuView { 0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 0x0101012f, 0x01010130, 0x01010131, 0x01010438 }
+int[] styleable MenuView { 0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 0x0101012f, 0x01010130, 0x01010131, 0x0101052f }
 int styleable MenuView_android_headerBackground 4
 int styleable MenuView_android_horizontalDivider 2
 int styleable MenuView_android_itemBackground 5

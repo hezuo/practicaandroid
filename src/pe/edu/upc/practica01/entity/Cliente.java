@@ -43,6 +43,10 @@ public class Cliente implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
+    
+    public String getNombreCompleto(){
+    	return this.getName() + " " + this.getLastName();
+    }
 
 }
 
