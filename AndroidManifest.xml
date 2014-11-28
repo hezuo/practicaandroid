@@ -9,13 +9,13 @@
         android:targetSdkVersion="19" />
 
     <application
-        android:name="pe.edu.upc.practica01.application.MyApplication"	
+        android:name=".application.MyApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="pe.edu.upc.practica01.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,13 +23,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="pe.edu.upc.practica01.BaseActivity" >
+        <activity android:name=".BaseActivity" >
         </activity>
-
-        <activity android:name="pe.edu.upc.practica01.VisitaActivity" >
+        <activity android:name=".VisitaActivity" >
         </activity>
-
-        <activity android:name="pe.edu.upc.practica01.ClienteActivity" >
+        <activity android:name=".ClienteActivity" >
+        </activity>
+        <activity
+            android:name=".NoVisitaActivity"
+            android:label="@string/title_activity_no_visita" >
         </activity>
     </application>
 
