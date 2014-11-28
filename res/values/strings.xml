@@ -12,4 +12,6 @@
     <string name="txtdireccion">direccion</string>
     <string name="txtnombre">nombre</string>
     <string name="string_empty"></string>
+    <string name="title_activity_no_visita">No visita</string>
+    
 </resources>
