@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="motivonovisita">
+        <item>--Seleccionar--</item>
+        <item>Cliente no estuvo disponible</item>
+        <item>Cliente pospuso la visita</item>
+        <item>Reunión se extendió con otro cliente</item>
+    </string-array>
+</resources>

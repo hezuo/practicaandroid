@@ -9,7 +9,19 @@ public class Cliente implements Serializable {
     private String name;
     private String lastName;
     private String address;
-    public String getPhone() {
+    private boolean estadoVisita;
+    
+    
+    
+    public boolean getEstadoVisita() {
+		return estadoVisita;
+	}
+	public void setEstadoVisita(boolean estadoVisita) {
+		this.estadoVisita = estadoVisita;
+	}
+	
+	public String getPhone()
+    {
 		return phone;
 	}
 	public void setPhone(String phone) {
@@ -36,7 +48,7 @@ public class Cliente implements Serializable {
 	
 	
     public Cliente(int id, String name, String lastName, String address,
-			String phone, String field) {
+			String phone, String field, boolean estado) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -44,6 +56,7 @@ public class Cliente implements Serializable {
 		this.address = address;
 		this.phone = phone;
 		this.field = field;
+		this.estadoVisita = estado;
 	}
 	public Cliente(int id, String name, String lastName, String address){
     	this.id = id;

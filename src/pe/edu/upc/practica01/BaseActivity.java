@@ -44,7 +44,7 @@ public class BaseActivity extends GeneralActivity {
                 try {
 
                     app.setLoggedIn(true);
-                    Toast.makeText(getApplicationContext(), "Ha iniciado el dia. ahora sera redirido a las opciones de visita", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Ha iniciado el dia. Ahora será redirigido a las opciones de visita", Toast.LENGTH_SHORT).show();
 
                     Intent i1 = new Intent(BaseActivity.this, BaseActivity.class);
                     startActivity(i1);

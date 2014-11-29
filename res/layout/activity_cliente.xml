@@ -1,59 +1,58 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-       android:layout_width="match_parent"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black" 
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="No visita" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"              
-        android:layout_marginBottom="22dp"
-        android:text="Visita" />
-
-   <TextView
+    <TextView
         android:id="@+id/lblClienteName"
-         android:layout_width="fill_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:text="@string/txtnombre"
         android:textAppearance="@android:style/TextAppearance.Medium"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/lblClientePhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/txtdireccion"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:textColor="@color/colorNum" />
 
     <TextView
         android:id="@+id/lblClienteAddress"
         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="5dp"
-        android:layout_height="wrap_content"
         android:text="@string/txtdireccion"
         android:textAppearance="@android:style/TextAppearance.Small"
-        android:textColor="@color/colorNum"  />
-    
-    <TextView
-        android:id="@+id/lblClientePhone"
-        android:layout_width="fill_parent"
-        android:layout_marginBottom="5dp"
-        android:layout_marginLeft="5dp"
-        android:layout_height="wrap_content"
-        android:text="@string/txtdireccion"
-        android:textAppearance="@android:style/TextAppearance.Small"
-        android:textColor="@color/colorNum"  />
+        android:textColor="@color/colorNum" />
+
     <TextView
         android:id="@+id/lblClienteField"
         android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:layout_marginLeft="5dp"
-        android:layout_height="wrap_content"
         android:text="@string/txtdireccion"
         android:textAppearance="@android:style/TextAppearance.Small"
-        android:textColor="@color/colorNum"  />
+        android:textColor="@color/colorNum" />
+
+    <Button
+        android:id="@+id/buttonRegistrarNovisita"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp"
+        android:text="Visita" />
+
+    <Button
+        android:id="@+id/buttonNoVisita"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="No visita" />
 
 </LinearLayout>

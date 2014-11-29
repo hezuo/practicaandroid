@@ -4,21 +4,41 @@
     android:layout_height="match_parent"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="104dp" />
-
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonRegistrarNovisita"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="74dp"
         android:text="Registrar no visita" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/motivonovisita" />
+
+    <TextView
+        android:id="@+id/lblClienteID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lblClienteNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblClienteID"
+        android:layout_below="@+id/lblClienteID"
+        android:layout_marginTop="30dp"
+        android:text="TextView" />
 
 </RelativeLayout>
