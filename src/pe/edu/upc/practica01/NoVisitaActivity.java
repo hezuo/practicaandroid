@@ -23,7 +23,7 @@ public class NoVisitaActivity extends GeneralActivity {
 		btRegistrarNoVisita = (Button) findViewById(R.id.buttonRegistrarNovisita);
 		
 		
-		cliente = (Cliente) getIntent().getSerializableExtra("cliente");
+		/*cliente = (Cliente) getIntent().getSerializableExtra("cliente");
 		
 				
 		
@@ -32,7 +32,7 @@ public class NoVisitaActivity extends GeneralActivity {
 		
 		txtID.setText(cliente.getId());
 		txtNombre.setText(cliente.getNombreCompleto());
-		
+		*/
         
 		
 		
